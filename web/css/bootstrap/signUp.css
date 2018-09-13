@@ -1,0 +1,146 @@
+body
+{
+  background-color: transparent !important;
+}
+
+h1
+{
+  color: white !important;
+  margin-left: 17% !important;
+}
+
+ul
+{
+    font-size: 1.2em !important;
+}
+.nav-link:hover
+{
+    transition: font-size 0.2s linear;
+    font-size: 1.3em !important;
+}
+.nav-link:not(:hover)
+{
+    transition: font-size 0.2s linear;
+}
+#plus
+{
+  font-size: 1.3em !important;
+}
+#plus:hover
+{
+  transition: font-size 0.2s linear;
+  font-size: 1.5em !important;
+}
+#plus:not(:hover)
+{
+  transition: font-size 0.2s linear;
+}
+
+#username
+{
+    padding-left: 30% !important;
+}
+.row
+{
+  height: 100vh !important;
+  margin-top: 8% !important;
+  margin-left: 10px;
+  overflow-x: hidden;
+}
+
+.aside-left
+{
+
+  position: fixed;
+  float: left !important;
+  width: 25% !important;
+  height: 100%;
+}
+
+.aside-right
+{
+  position: fixed;
+  right:0;
+  width: 25% !important;
+  height: 100%;
+}
+.aside-left2
+{
+
+  position: fixed;
+  float: left !important;
+  width: 40% !important;
+  height: 100%;
+}
+.center2
+{
+  width: 60% !important;
+  margin-left: 25%;
+}
+.center
+{
+  width: 48.5% !important;
+  margin-left: 25%;
+}
+html
+{
+  overflow-x: hidden;
+}
+
+.profile-img-container {
+    position: relative !important;
+    display: inline-block !important;
+    overflow: hidden !important;
+}
+
+.profile-img-container img:hover {
+    opacity: 0.5 !important;
+}
+.profile-img-container:hover a {
+    transition: opacity 0.5s ease-in-out;
+    opacity: 1 !important;
+    top: 0 !important;
+    z-index: 500 !important;
+}
+
+.profile-img-container:hover a span {
+    top: 50% !important;
+    position: absolute !important;
+    left: 0 !important;
+    right: 0 !important;
+    transform: translateY(-50%) !important;
+}
+/* added */
+.profile-img-container a {
+    display: block !important;
+    position: absolute !important;
+    top: -100% !important;
+    opacity: 0 !important;
+    left: 0 !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    text-align: center !important;
+    color: inherit !important;
+}
+
+#changeImg
+{
+  font-size: 2.5em !important;
+}
+.ui-autocomplete
+{
+  z-index: 2000;
+}
+.ui-menu .ui-menu-item a.ui-corner-all:hover, .ui-menu .ui-menu-item a.ui-corner-all:focus, .ui-menu .ui-menu-item a.ui-corner-all:active {
+    background:#ededed!important;
+    color:#000;
+    border-radius:0;
+}
+
+.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+    background: #ededed;
+    border: none;
+    color:#000;
+    border-radius:0;
+    font-weight: normal;
+}

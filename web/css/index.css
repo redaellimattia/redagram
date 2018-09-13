@@ -1,0 +1,28 @@
+html
+{
+  min-height: 100vh;
+}
+.imageTop
+{
+    width: 100%;
+    background-image: url(../img/bg9.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.content iframe
+{
+    margin-top: 1% !important;
+    height: 80% !important;
+    width: 900px;
+    padding-top: 1%;
+    padding-left: 3%;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+footer
+{
+  padding-top: 3% !important;
+  margin-top: 3% !important;
+}
